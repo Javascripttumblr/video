@@ -1,77 +1,80 @@
 <!DOCTYPE html>
 <html lang="zh-cn">
-	<head>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<title>海盗视频解析</title>
-		<link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
-		<style>
-		body {
-			height: 100%;
-		}
-		</style>
-	</head>
-<body background = "https://orig00.deviantart.net/550a/f/2010/057/6/7/670ca7325ce449789f96c653fc591745.png">
-<br><div class="container"style="padding-top:0px;"id="wbk">
-<div class="alert alert-success alert-dismissible"role="alert">
-<button type="button"class="close"data-dismiss="alert">
-<span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-<strong>在下方粘贴VIP视频地址，点击观看即可（支持手机）</strong>
-</div>
-<div class="col-md-14 column">
-<div class="panel panel-default"><div id="kj"class="panel-body">
-<iframe src="https://api.47ks.com/webcloud/?v=http://v.youku.com/v_show/id_XMTg5MTUzNzY5Mg==.html?spm=a2h03.8173536.2100006.5"id="player"width="100%"height="600px"allowTransparency="true"frameborder="0"scrolling="no">
-</iframe>
-</div>
-</div>
-</div>
-						<div class="col-md-14 column">
-							<form method="get" >
-								<div class="input-group" style="width: 100%;">
-									<span class="input-group-addon input-lg" style="width: 80px; ">选择海盗船</span>
-									<select class="form-control input-lg" id="jk">
-										<option value="https://www.61818988.com/video.php?url=">海盗船1号</option>
-										<option value="https://www.52jiexi.com/yun.php?url=">海盗船2号</option>
-										<option value="https://api.baiyug.cn/vip/?url=">海盗船3号</option>
-										<option value="https://jx.71ki.com/qqvip.php?url=">腾讯4号</option>
-										<option value="https://jiexi.071811.cc/jx2.php?url=">海盗船5号</option>
-										<option value="https://www.sfsft.com/admin.php?url=">海盗船6号</option>
-										<option value="https://api.47ks.com/webcloud/?v=">主攻优酷7</option>
-										<option value="https://www.wpswan.com/mzr/vipparse/index.php?url=">海盗船8号</option>
-										<option value="https://www.kkflv.com/kkflv/index.php?url=">海盗船9号</option>
-										<option value="https://api.xfsub.com/index.php?url=">海盗船10号</option>
-										<option value="https://000o.cc/jx/ty.php?url=">海盗船11号</option>
-									</select>
-								</div><br>
-								<div class="input-group" style="width: 100%;">
-									<span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
-									<input class="form-control input-lg" type="search" placeholder="输入播放地址" id="url">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>海盗视频解析</title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+</head>
 
-								</div><br>
-								<div><button id="bf" type="button" class="btn btn-primary btn-lg btn-block" onclick='var diz = document.getElementById("url").value;var jkurl = document.getElementById("jk");var jk = document.getElementById("jk").selectedIndex;var jkv = jkurl.options[jk].value;var cljurl = document.getElementById("player");cljurl.src = jkv + diz;'>观看</button>
-								</div>
-							</form>
-	</div></br>
-			
-			<table class="table table-bordered" style="background: rgba(0,0,0,.3);color:#449d44;">
-				<thead>
-					<tr></tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							<ol>
-								<h5>
-									<li>推荐4 7 9 号海盗船，免费会员包括并不仅限于优酷、乐视、搜狐、爱奇艺、腾讯</li><br>
-									<li>遇到无法攻破，船只入不了港，请自行更换船只</li><br>
-									<li>乘风破浪有时，风大船翻有时，定期维护，不保证永久可用</li><br>
-									<li>复制会员视频地址，粘贴到播放地址，点击观看。例如http://v.youku.com/v_show/id_XMTg5MTUzNzY5Mg==.html?spm=a2h03.8173536.2100006.5</li><br>
-								</h5>
-							</ol>
-						</td>
-					</tr>
-				</tbody>
-			</table>
+<body background="https://orig00.deviantart.net/550a/f/2010/057/6/7/670ca7325ce449789f96c653fc591745.png">
+    <br>
+    <div class="container" style="padding-top:0px;" id="wbk">
+        <div class="alert alert-success alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert">
+<span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <strong>在下方粘贴VIP视频地址，点击观看即可（支持手机）</strong>
+        </div>
+        <div class="col-md-14 column">
+            <div class="panel panel-default">
+                <div id="kj" class="panel-body">
+<iframe 
+src="https://api.47ks.com/webcloud/?v=http://v.youku.com/v_show/id_XMTg5MTUzNzY5Mg==.html?spm=a2h03.8173536.2100006.5" 
+	id="player" width="100%" height="600px" allowTransparency="true" frameborder="0" scrolling="no">
+</iframe>
+                </div>
+            </div>
+        </div>
+                    
+        <div class="col-md-14 column">
+            <form method="get">
+                <div class="input-group" style="width: 100%;">
+                    <span class="input-group-addon input-lg" style="width: 80px; ">选择海盗船</span>
+                    <select class="form-control input-lg" id="jk">
+		<option value="https://www.61818988.com/video.php?url=">海盗船1号</option>
+		<option value="https://www.52jiexi.com/yun.php?url=">海盗船2号</option>
+		<option value="https://api.baiyug.cn/vip/?url=">海盗船3号</option>
+		<option value="https://jx.71ki.com/qqvip.php?url=">腾讯4号</option>
+		<option value="https://jiexi.071811.cc/jx2.php?url=">海盗船5号</option>
+		<option value="https://www.sfsft.com/admin.php?url=">海盗船6号</option>
+		<option value="https://api.47ks.com/webcloud/?v=">主攻优酷7</option>
+		<option value="https://www.wpswan.com/mzr/vipparse/index.php?url=">海盗船8号</option>
+		<option value="https://www.kkflv.com/kkflv/index.php?url=">海盗船9号</option>
+		<option value="https://api.xfsub.com/index.php?url=">海盗船10号</option>
+		<option value="https://000o.cc/jx/ty.php?url=">海盗船11号</option>
+		</select>
+                </div><br>
+                <div class="input-group" style="width: 100%;">
+                    <span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
+                    <input class="form-control input-lg" type="search" 
+			   placeholder="http://v.youku.com/v_show/id_XMTg5MTUzNzY5Mg==.html?spm=a2h03.8173536.2100006.5" id="url">
+                </div><br>
+                <div><button id="bf" type="button" class="btn btn-primary btn-lg btn-block" onclick='var diz = document.getElementById("url").value;var jkurl = document.getElementById("jk");var jk = document.getElementById("jk").selectedIndex;var jkv = jkurl.options[jk].value;var cljurl = document.getElementById("player");cljurl.src = jkv + diz;'>观看</button>
+                </div>
+            </form>
+        </div>
+        </br>
+
+        <table class="table table-bordered" style="background: rgba(0,0,0,.3);color:#449d44;">
+            <thead>
+                <tr></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol>
+                            <h5>
+                                <li>推荐4 7 9 号海盗船，免费会员包括并不仅限于优酷、乐视、搜狐、爱奇艺、腾讯</li><br>
+                                <li>遇到无法攻破，船只入不了港，请自行更换船只</li><br>
+                                <li>乘风破浪有时，风大船翻有时，定期维护，不保证永久可用</li><br>
+                                <li>复制会员视频地址，粘贴到播放地址，点击观看。</li><br>
+                            </h5>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
 
 </body>
+
 </html>
