@@ -9,12 +9,7 @@
 
 <body background="https://orig00.deviantart.net/550a/f/2010/057/6/7/670ca7325ce449789f96c653fc591745.png">
     <br>
-    <div class="container" style="padding-top:0px;" id="wbk">
-        <div class="alert alert-success alert-dismissible" role="alert">
-            <button type="button" class="close" data-dismiss="alert">
-<span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            <strong>在下方粘贴VIP视频地址，点击观看即可（支持手机）</strong>
-        </div>
+  
         <div class="col-md-14 column">
             <div class="panel panel-default">
                 <div id="kj" class="panel-body">
@@ -43,13 +38,14 @@ src="https://api.47ks.com/webcloud/?v=http://v.youku.com/v_show/id_XMTg5MTUzNzY5
 		<option value="https://api.xfsub.com/index.php?url=">海盗船10号</option>
 		<option value="https://000o.cc/jx/ty.php?url=">海盗船11号</option>
 		</select>
-                </div><br>
+                </div><br/>
                 <div class="input-group" style="width: 100%;">
                     <span class="input-group-addon input-lg" style="width: 80px;">播放地址</span>
                     <input class="form-control input-lg" type="search" 
 			   placeholder="http://v.youku.com/v_show/id_XMTg5MTUzNzY5Mg==.html?spm=a2h03.8173536.2100006.5" id="url">
-                </div><br>
-                <div><button id="bf" type="button" class="btn btn-primary btn-lg btn-block" onclick='var diz = document.getElementById("url").value;var jkurl = document.getElementById("jk");var jk = document.getElementById("jk").selectedIndex;var jkv = jkurl.options[jk].value;var cljurl = document.getElementById("player");cljurl.src = jkv + diz;'>观看</button>
+                </div><br/>
+                <div><button id="bf" type="button" class="btn btn-primary btn-lg btn-block" 
+              onclick='var diz = document.getElementById("url").value;var jkurl = document.getElementById("jk");var jk = document.getElementById("jk").selectedIndex;var jkv = jkurl.options[jk].value;var cljurl = document.getElementById("player");cljurl.src = jkv + diz;'>观看</button>
                 </div>
             </form>
         </div>
@@ -57,7 +53,7 @@ src="https://api.47ks.com/webcloud/?v=http://v.youku.com/v_show/id_XMTg5MTUzNzY5
 
         <table class="table table-bordered" style="background: rgba(0,0,0,.3);color:#449d44;">
             <thead>
-                <tr></tr>
+                <tr>注意事项：</tr>
             </thead>
             <tbody>
                 <tr>
