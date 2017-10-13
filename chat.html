@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>迷你聊天室</title>
-    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 <body>
-    <article class="container">
-        <div id="messages" class="messages">
-        "欢迎来到迷你匿名聊天室",
-		请大家使用此<a href="https://hack.chat/?chat"秘密频道></a>聊天交友，
-	 注意昵称只能用英文字母数字及下划线，但聊天可以用中文",
-	
-	     "聊天可用格式:",
-	     "空格被保留，所以可以复制粘贴源代码",
-	     "支持LaTeX数学符号，用一个美元符号把Latex包起来作为内部书写格式, 两个美元符号用来显示. 
-	     "服务器上不保留消息历史记录"
-        
-        </div>
-    </article>
+        <h1>人生难得聊得来
+	<table class="table table-bordered" style="background: rgba(0,0,0,.3);color:#449d44;">
+            <thead>
+                <tr>注意事项：</tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ol>
+                            <h5>
+				<li>欢迎来到迷你匿名聊天室</li><br>
+				<li>请大家使用此<a href="https://hack.chat/?chat" target="_blank">秘密频道</a>聊天交友</li><br>     
+                                <li>注意昵称只能用英文字母数字及下划线，但聊天可以用中文</li><br>
+                                <li>空格被保留，所以可以复制粘贴源代码，程序员懂的</li><br>
+                                <li>服务器上不保留消息历史记录</li><br>
+                                 
+                            </h5>
+                        </ol>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     <footer id="footer">
         <div class="container">
-            <form id="chatform" class="messages"><textarea id="chatinput" type="text" autocomplete="off" autofocus></textarea></form>
+            <form id="chatform" class="messages">
+	<textarea placeholder="点击秘密频道跳转到本站专用聊天室" id="chatinput" type="text" autocomplete="off" autofocus></textarea></form>
         </div>
     </footer>
    
