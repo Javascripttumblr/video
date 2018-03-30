@@ -1,0 +1,177 @@
+<div id="cOuTEr"><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="cmn-Hans" xml:lang="cmn-Hans">
+<head><meta charset="UTF-8">
+<title>追梦搜索</title>
+<meta content="给你一个让你满意的搜索结果页" name="description">
+<meta content="追梦搜索" name="keywords">
+<meta content="追梦搜索" name="apple-mobile-web-app-title">
+<meta content="webkit" name="renderer">
+<meta content="telephone=no" name="format-detection">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,minimal-ui" name="viewport">
+<link href="http://www.drehere.com/" rel="canonical">
+<style type="text/css">body,div,h1{margin:0}body{color:#222;background-color:#f8f7f5;font-family:"Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;height:100%}h1{font-size:1.75em}img{height:auto!important}table{width:46.25em;border-collapse:collapse;width:100%!important}thead{color:#0080ff;background-color:#f2f2f2}th,td{padding:.1875em}a{color:#607fa6;font-size:1em;text-decoration:none}.noa{color:#ffd700;font-size:1em;font-weight:bold;text-decoration:none}.pink{color:#ffc0cb;font-size:1em;font-weight:bold;text-decoration:none}.pinks{color:#ffc0cb;text-decoration:none}input{font:normal 100% "STHeiti STXihei","Lucida Grande","Microsoft JhengHei","Microsoft Yahei",Helvetica,Tohoma,Arial,Verdana,sans-serif}.other{padding:.125em .3125em .25em .3125em;height:2.5em;width:5em;outline:0}.submit{height:3.125em;width:5.9375em;border:0}.center{text-align:center}.bold{font-size:1.5em;font-weight:bold;word-break:normal;word-wrap:break-word}.break{word-break:break-all}.tiny{font-size: .8em}@media screen and (min-width:1024px){.detail{width:46.25em;margin:0 auto;padding:1.25em;padding-top:0;border-left:.0625em solid #ccc;border-bottom:.0625em solid #ccc;border-right:.0625em solid #ccc}}.detail{background-color:#373737}.header{padding-top:1.25em;padding-bottom:.625em;border-bottom:.0625em dotted #ccc}.red{color:#f5deb3}.white{color:#fffaf0}.back-white{background-color:#fff;opacity:.85}.back-egg{background-color:#ffb;opacity:.85}.back-pink{background-color:#ffb7dd;opacity:.85}.back-yellow{background-color:#fda;opacity:.85}.back-orange{background-color:#fda;opacity:.85}.back-gold{background-color:#fe9;opacity:.85}.back-green{background-color:#efb;opacity:.85}.back-blue{background-color:#cdf;opacity:.85}.back-sky{background-color:#cef;opacity:.85}.back-baidu{background-color:#77bbef;opacity:.85}.back-wheat{background-color:#f5deb3;opacity:.85}.back-azure{background-color:#f0ffff;opacity:.85}.unit-honeydew{background-color:#f0fff0;opacity:.85}.unit-gold{background-color:#ffd700;opacity:.85}.unit-orange{background-color:#ffa500;opacity:.85}.unit-violet{background-color:#ee82ee;opacity:.85}.unit-tomato{background-color:#ff6347;opacity:.85}.unit-lavender{background-color:#e6e6fa;opacity:.85}.unit-silver{background-color:#c0c0c0;opacity:.85}.unit-darkseagreen{background-color:#8fbc8f;opacity:.85}.unit-mediumpurple{background-color:#9370db;opacity:.85}.unit-burlywood{background-color:#deb887;opacity:.85}.unit-aquamarine{background-color:#7fffd4;opacity:.85}.unit-springgreen{background-color:#00ff7f;opacity:.85}.unit-darkturquoise{background-color:#00ced1;opacity:.85}.unit-mediumseagreen{background-color:#3cb371;opacity:.85}.unit-deepskyblue{background-color:#00bfff;opacity:.85}.unit-lightskyblue{background-color:#87cefa;opacity:.85}.right_outer,.non{display:none!important}@media screen and (min-width:1024px){.draglist:hover{border-color:#ffb;background-color:#fda}.non{display:block!important}.text{padding:.125em .3125em .25em .3125em;height:2.5em;width:22.5em;outline:0}.right_outer{display:block!important;position:fixed;left:0;right:0;top:-2.5em;color:#717375;text-align:center}.right_inner{position:relative;width:46.25em;margin-left:auto;margin-right:auto}.right p{font-size:.875em;line-height:1.25em}.right{position:absolute;right:-150px;top:42px;padding:8px;border:.0625em solid #d9dadc;background-color:#fff}}.dis{display:none!important}.space{letter-spacing:1em}@media screen and (max-width:1023px){.dis{display:block!important}.text{padding:.125em .3125em .25em .3125em;height:2.5em;width:12em;outline:0}}@media only screen and (max-width:768px){#starIframe_wrapper_1,#starIframe_wrapper_2,#sg-l,#sg-r,#rbot,#f22,#dfx_vnnv{display:none;}}</style></head>
+<body itemscope itemtype="http://schema.org/WebPage">
+<div class="detail">
+<div class="header center non">
+<form method="get" action="/">
+<a itemprop="url" href="/" rel="nofollow"><canvas id="myCanvas" width="52" height="26">no canvas</canvas></a>
+
+<input class="text" type="text" value="" name="s" autocomplete="off" maxlength="76" id="sug" autofocus="autofocus" placeholder="请输入查询词" data-evt="this.focus()" data-evt="this.select()"> <input class="other" type="number" name="pn" title="从第几位开始取结果" min="0" max="750" value="" placeholder="取第几位" data-evt="this.focus()" data-evt="this.select()">
+<input class="other" type="number" name="rn" title="搜索结果数量" min="0" max="50" value="" placeholder="返回数量" data-evt="this.focus()" data-evt="this.select()">
+<input class="submit" type="submit" value="百度一下"><br>
+</form>
+</div>
+<div class="header center dis">
+<form method="get" action="/">
+<input class="text" type="text" id="js-in" value="" name="s" autocomplete="off" maxlength="76" su="1" placeholder="请输入查询词" data-evt="this.focus()" data-evt="this.select()"> <input class="submit" type="submit" value="百度一下"><br><br>
+</form>
+</div>
+
+
+
+</body></html></div>
+</div>
+<div id="cFooTEr">
+</div>
+<script src="https://s.ssl.qhimg.com/lib/jquery/183.js"></script>
+<script src="http://s0.qhimg.com/monitor/;monitor/fd7e782a.js"></script>
+<script>
+    var Tool = {
+        //中文字符检查
+        isCN : function(str){
+            var reg = new RegExp('[\u4e00-\u9fa5]');
+            return reg.test(str);
+        },
+
+        //获取cookie
+        cookie : {
+            get : function(key){
+                var cs = [],rs = {},tmp = [],
+                    cookie = document.cookie;
+                cs = cookie.split(';');
+                for(var i=0,l=cs.length;i<l;i++){
+                    tmp = cs[i].replace(/^\s+/,'').replace(/\s+$/,'');
+                    tmp = tmp.split('=');
+                    rs[tmp[0]] = tmp[1];
+
+                    if(tmp[0] == key){
+                        return tmp[1];
+                    }
+                }
+                if(key) return null;
+                return rs;
+            },
+            set : function(name, value, expires, path, domain, secure){
+                var cookieText = encodeURIComponent(name) + "=" +
+                    encodeURIComponent(value);
+
+                if(expires instanceof Date){
+                    cookieText += "; expires=" + expires.toGMTString();
+                }
+
+                if(path){
+                    cookieText += "; path=" + path;
+                }
+
+                if(domain){
+                    cookieText += "; domain=" + domain;
+                }
+
+                if(secure){
+                    cookieText += "; secure";
+                }
+                document.cookie = cookieText;
+            }
+        },
+        //获取location.href信息
+        getURI : function(strKeys){
+            var jsonUriParms = Tool.getJsonHref();
+
+            if(typeof strKeys == 'string' && strKeys.indexOf(',') < 0){
+                return jsonUriParms[strKeys];
+            }
+
+            var arrKeys = [];
+            if(typeof strKeys == 'string' && strKeys.indexOf(',') > 0){
+                arrKeys = strKeys.split(',');
+            }else if(_keys instanceof Array){
+                arrKeys = strKeys;
+            }
+
+            var rs = [];
+            for(var i=0;i<arrKeys.length;i++){
+                if(jsonUriParms[arrKeys[i]]){
+                    rs.push(jsonUriParms[arrKeys[i]]);
+                }
+            }
+
+            return rs.join('&');
+        },
+        //对象化location.href信息
+        getJsonHref : function(){
+            var URI = window.location.href,
+                uParms = window.location.search.replace('?',''),
+                key = (arguments[0]=='undefined')?"":arguments[0],
+                arrUriParms = uParms.split('&'),
+                jsonUriParms = {};
+
+            for(var i=0;i<arrUriParms.length;i++){
+                var uri = arrUriParms[i].split('=');
+                if(Tool.isCN(uri[1])){
+                    jsonUriParms[uri[0]] = uri[0]+'='+encodeURIComponent(uri[1]);
+                }else{
+                    jsonUriParms[uri[0]] = arrUriParms[i];
+                }
+            }
+
+            return  jsonUriParms;
+        },
+
+        getGuid : function(){
+            return  Tool.cookie.get('QiHooGUID');
+        }
+    };
+</script>
+<script>
+    (function() {
+        // var _mguid = monitor.util.getGuid;
+        monitor.util.getGuid = function() {
+            return Tool.getGuid();
+        };
+
+        // 输入框样式设置
+        $('#detail').on('mouseenter', function() {
+            $(this).find(".info").css('display','inline-block');
+            basePara.type = 'show_detail';
+            monitor.log(basePara, 'click');
+        });
+        $('#detail').on('mouseleave', function() {
+            $(this).find(".info").hide();
+        });
+
+        // 点击打点基本参数
+        var dispCache = Tool.getURI('q'),
+            basePara = {
+                pro: "so",
+                pid: "www",
+                mod:  'webcache'
+            };
+
+        monitor.setConf('clickUrl', '//s.360.cn/so/click.gif');
+
+        // 链接点击打点,快照删除申请点击打点
+        $('.linkClick, .snapDetele').on('mousedown', function() {
+            basePara.type = 'click_' + $(this).data('type');
+            monitor.log(basePara, 'click');
+        });
+
+        monitor.setConf("wpoUrl", "//s.360.cn/sou/disp_cache.gif?"+dispCache);
+        monitor.log({'eng':'0'}, 'wpo');
+        if (location.hash == '#360sou') {
+            $(($.browser.msie || $.browser.mozilla) ? document.documentElement :document.body).animate({'scrollTop':$("#bd_snap_note").offset().top-5},800);
+        }
+    })();
+</script>
